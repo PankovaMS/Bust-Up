@@ -8,16 +8,6 @@ html {
     padding: 0;
     font-family: 'Lato', sans-serif;
 }
-/* @media (min-width: 1200px) { /* стиль имеет смысл, когда ширина экрана больше 1200px, к тому же не нужно придумывать решения для IE7 и ниже */ 
-        .full-screen {
-          width: 50vw;
-          margin-left: 50%;
-        }
-        .full-screen > div {
-          width: 100vw; /* включает в себя полосу прокрутки от body */ 
-          margin-left: -100%;
-        }
-      } */
 
 .navbar {
     display: flex;
@@ -26,15 +16,18 @@ html {
     width: 100%;
 	position: relative;
     white-space: nowrap;
-}
+} 
+/* navigation */
 .navbar .container{
    height: inherit;
    display: flex;
    flex-wrap: nowrap;
    justify-content: center;
    align-items: center;
-
+   flex-grow: 1;
 }
+/*    img + menu */
+
 .navbar-menu {
     list-style-type: none;
     padding-left: 0;
@@ -42,9 +35,9 @@ html {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     white-space: nowrap;
-    
-
 }
+/* only menu */
+
 .navbar-menu li {
     display: inline-block;
     margin: 5px;
@@ -85,11 +78,27 @@ body {
     text-align: center;
     padding-top: 100px;
 }
+/* blue bg container */
 .h1 {
     font-weight: 900;
     font-size: 1.8em;
 }
+/* BOOST UP YOUR LOCAL BUSINESS */
 .h2 {
     font-weight: 100;
    
 }
+/* text after BOOST UP YOUR LOCAL BUSINESS */
+
+input {
+    padding: 10px;
+    margin: 2px;
+}
+#btn {
+    background-color:  #ffbb42;
+    padding: 10px;
+    color: white;
+    font-size: 0.8em;
+    padding: 10px 30px;
+}
+/* input on blue bg style */
