@@ -93,6 +93,7 @@ body {
 input {
     padding: 10px;
     margin: 2px;
+    outline: none;
 }
 #btn {
     background-color:  #ffbb42;
@@ -100,5 +101,29 @@ input {
     color: white;
     font-size: 0.8em;
     padding: 10px 30px;
+    outline: none;
+    border: 1px;
+    border-radius: 2px;
 }
+input:hover {
+ border: 1.5px solid rgba(0, 0, 0, 0.693);
+
+}
+/* 
 /* input on blue bg style */
+#img_1 {
+    position: absolute;
+    z-index: 1;
+}
+#img_2 {
+    z-index: 2;
+    position: absolute;
+    
+    margin-top: 18px;
+}
+.laptop_image {
+    margin-top: -270px;
+  
+    display: flex;
+    justify-content: center;
+}
