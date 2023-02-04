@@ -1,59 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto:wght@100&family=Sofia+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto:wght@100&family=Sofia+Sans&display=swap"
+        rel="stylesheet">
     <title>Document</title>
 </head>
 <header>
-   <nav class="navbar">
-    <div class="container">
-        <a href="#"><img class="img_logo" src="img/logo.png" alt="logo"></a>
-           <ul class="navbar-menu">
-               <li><a href="#">HOME</a></li>
-               <li><a href="#">SERVICE</a></li>
-               <li><a href="#">ABOUT US</a></li>
-               <li><a href="#">PRICING TABLE</a></li>
-               <li><a href="#">HOW IT WORK</a></li>
-               <li><a href="#">HAPPY CLIENTS</a></li>
-               <li><a href="#">CONTACT US</a></li>
-           </ul> 
-           <!-- .navbar-menu -->
-    </div>
-    <!-- .container -->
-   </nav>
-   <!-- .navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#"><img class="img_logo" src="img/logo.png" alt="logo"></a>
+            <ul class="navbar-menu">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SERVICE</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">PRICING TABLE</a></li>
+                <li><a href="#">HOW IT WORK</a></li>
+                <li><a href="#">HAPPY CLIENTS</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+            <!-- .navbar-menu -->
+        </div>
+        <!-- .container -->
+    </nav>
+    <!-- .navbar -->
 </header>
 
 <body>
-    <div class="content">
-<strong class="h1">BOOST UP YOUR LOCAL BUSINESS</strong> 
-<br>
-<strong class="h2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</strong>
-<form action="" class="from_reg" autocomplete="off">
-    <label for="name"></label>
-    <input id="name" type="text" placeholder="Full Name" maxlength="70" formmethod="get" required="" size="30" >
-    <label for="email"></label>
-    <input id="email" type="email" placeholder="Email Address" formmethod="get" required size="30" pattern="/^[A-Z0-9._%+-]+@[A-Z0-9-]+.+.[A-Z]{2,4}$/i">
-    <label for="number"></label>
-    <input id="number" type="tel" placeholder="Phone Number" maxlength="15" formmethod="get" required size="30">
-    <button id="btn" type="submit">REQUEST A QUOTE</button>
 
-</form>
-<!-- .form_reg -->
-</div>
+    <div class="content">
+        <strong class="h1">BOOST UP YOUR LOCAL BUSINESS</strong>
+        <br>
+        <strong class="h2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</strong>
+        <form action="" class="from_reg" autocomplete="off">
+            <label for="name"></label>
+            <input id="name" type="text" placeholder="Full Name" maxlength="70" formmethod="get" required="" size="30">
+            <label for="email"></label>
+            <input id="email" type="email" placeholder="Email Address" formmethod="get" required size="30"
+                pattern="([a-z0-9_-\.]+)\@([a-z0-9-\.]+)\.([a-z]{2,})">
+            <label for="number"></label>
+            <input id="number" type="tel" placeholder="Phone Number" maxlength="15" formmethod="get" required size="30"
+                pattern="\+?(\d{1,3})?[- .]?\(?(?:\d{2,3})\)?[- .]?\d\d\d[- .]?\d\d\d\d">
+            <button id="btn" type="submit">REQUEST A QUOTE</button>
+
+        </form>
+        <!-- .form_reg -->
+    </div>
     <!-- .content -->
-<div class="laptop_image">
+    <div class="service">
+        <div class="service_heading">
+            <div class="h1 service_heading">OUR SERVICES</div>
+            <p class="appendix">Lorem ipsum is simply dummy Buisness industry</p>
+        </div>
+        <table class="table_service">
+            <tr>
+                <td>
+                    <div class="service_1">
+                        <img src="img/1.png" alt="">
+                        <h3>FONT-AWESOME ICONS</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 15 <br>
+                            00s, when an unknown printer took a galley of type and scrambled it to make
+
+                    </div>
+                    <!-- .service_1 -->
+                </td>
+                <td>
+                    <div class="service_2">
+                        <img src="img/2.png" alt="">
+                        <h3>FULLY RESPONSIVE DESIGN</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 15 <br>
+                            00s, when an unknown printer took a galley of type and scrambled it to make
+
+                    </div>
+                    <!-- .service_2 -->
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="service_3">
+                        <img src="img/3.png" alt="">
+                        <h3>WORKING CONTACT FORM</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 15 <br>
+                            00s, when an unknown printer took a galley of type and scrambled it to make
+
+                    </div>
+                    <!-- .service_3 -->
+                </td>
+                <td>
+                    <div class="service_4">
+                        <img src="img/4.png" alt="">
+                        <h3>RETINA READY ICONS HERE</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 15 <br>
+                            00s, when an unknown printer took a galley of type and scrambled it to make
+
+                    </div>
+                    <!-- .service_4 -->
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="service_5">
+                        <img src="img/5.png" alt="">
+                        <h3>FRIENDLY CODE</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 15 <br>
+                            00s, when an unknown printer took a galley of type and scrambled it to make
+
+                    </div>
+                    <!-- .service_5 -->
+                </td>
+                <td>
+                    <div class="service_6">
+                        <img src="img/6.png" alt="">
+                        <h3>FLAT TRENDY LANDING PAGE DESIGN</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 15 <br>
+                            00s, when an unknown printer took a galley of type and scrambled it to make
+
+                    </div>
+                    <!-- .service_6 -->
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!-- .service -->
+
+    </div>
+    <!-- <div class="laptop_image">
     
         <img id="img_1" src="img/Vector Smart Object.png" alt="laptop_image">
         <img id="img_2" src="img/Layer 24.png" alt="people">
 
-</div>
-   <!-- .laptop_image -->
+</div> -->
+    <!-- .laptop_image -->
 </body>
+
 </html>
