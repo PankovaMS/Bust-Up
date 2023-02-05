@@ -1,3 +1,13 @@
+@font-face {
+    font-family: GothamBlack;
+    src: url("gotham-black.otf") format("opentype");
+}
+
+@font-face {
+    font-family: GothamLight;
+    src: url(Gotham/gotham_light.otf) format("opentype");
+}
+
 html {
     height: 100%;
     box-sizing: border-box;
@@ -69,7 +79,7 @@ html {
 }
 
 .img_logo {
-    padding-right: 130px;
+    padding-right: 250px;
 }
 
 body {
@@ -92,13 +102,15 @@ body {
 
 /* blue bg container */
 .h1 {
-    font-weight: 900;
+
+    font-family: 'GothamBlack', arial;
     font-size: 1.8em;
 }
 
 /* BOOST UP YOUR LOCAL BUSINESS */
 .h2 {
     font-weight: 100;
+    font-family: 'GothamLight', arial;
 
 }
 
@@ -108,6 +120,7 @@ input {
     padding: 10px;
     margin: 2px;
     outline: none;
+    margin-top: 30px;
 }
 
 #btn {
@@ -128,50 +141,123 @@ input:hover {
 
 /* 
 /* input on blue bg style */
-/* #img_1 {
-    position: absolute;
-    z-index: 1;
-}
+
 #img_2 {
-    z-index: 2;
+    z-index: 1;
     position: absolute;
-    
-    margin-top: 18px;
+    left: 102px;
+    top: 19px;
 }
+
 .laptop_image {
-    margin-top: -1050px;
-    display: flex;
-    justify-content: center;
-} */
+    position: absolute;
+    top: -270px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.service {
+    position: relative;
+    padding-top: 109px;
+    padding-bottom: 100px;
+}
+
 .service_heading {
     text-align: center;
-    font-family: 'Lato', sans-serif;
+    font-family: 'GothamBlack', arial;
     font-weight: 900;
-    font-size: 1.4em;
-    margin-top: 250px;
+    margin-top: 30px;
     color: #394b50;
+}
+
+.h1.service_heading {
+    opacity: 95%;
+    font-size: 1.4em;
+    font-family: 'GothamBlack', arial;
+    font-weight: 900;
 }
 
 .table_service {
     margin: auto;
 }
+
 td {
     padding: 50px;
 }
+
 .appendix {
     margin-top: -5px;
     font-weight: 400;
+    font-size: 0.8em;
     margin-bottom: 25px;
+    font-family: 'GothamLight', sans-serif;
+    opacity: 90%;
 }
-h3 {
+
+.main {
     color: #394b50;
-    font-weight: 600;
-    font-family: 'Lato', sans-serif;
+    font-size: 0.8em;
     padding-bottom: 10px;
 }
-p {
+
+.text {
     color: #394b50;
+    opacity: 70%;
     font-weight: 400;
-    font-family: 'Lato', sans-serif;
-    
+    font-size: 0.8em;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+
+/* text after "our services" */
+.service_1,
+.service_2,
+.service_3,
+.service_4,
+.service_5,
+.service_6 {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.icon {
+    padding: 0 30px;
+    width: 100px;
+}
+
+.icon_6 {
+    width: 30px;
+    margin: 0 35px;
+}
+.service_heading {
+    position: relative;
+}
+.about_us {
+
+    position: relative;
+    top: -270px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.layer {
+    position: absolute;
+    z-index: 5;
+    top: 1498px;
+    transform: translateX(-50%);
+}
+.layer_1 {
+    position: absolute;
+    z-index: 4;
+    top: 1498px;
+    transform: translateX(-50%);
+}
+.about_us_text {
+    position: absolute;
+    color: white;
+    z-index: 7;
+    top: 1498px;
+    transform: translateX(-50%);
+    font-size: 0.9em;
+    line-height: 1.8;
 }
