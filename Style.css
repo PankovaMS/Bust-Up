@@ -8,6 +8,11 @@
     src: url(Gotham/gotham_light.otf) format("opentype");
 }
 
+@font-face {
+    font-family: Brandon Grotesque;
+    src: url(BrandonGrotesque-Bold/BrandonGrotesque-Bold.ttf) format("opentype");
+}
+
 html {
     height: 100%;
     box-sizing: border-box;
@@ -171,7 +176,7 @@ input:hover {
     text-align: center;
     font-family: 'GothamBlack', arial;
     font-weight: 900;
-    margin-top: 30px;
+    margin-top: 137px;
     color: #394b50;
 }
 
@@ -181,6 +186,7 @@ input:hover {
     font-size: 1.4em;
     font-family: 'GothamBlack', arial;
     font-weight: 900;
+    margin-top: 137px;
 }
 
 .table_service {
@@ -198,6 +204,10 @@ td {
     margin-bottom: 25px;
     font-family: 'GothamLight', sans-serif;
     opacity: 90%;
+}
+
+.service_heading_choos {
+    margin-bottom: -200px;
 }
 
 .main {
@@ -294,7 +304,7 @@ td {
 .block_3 {
     display: flex;
     flex-direction: column;
-    margin: 233px 0 164px 0;
+
 }
 
 .block_1 {
@@ -320,6 +330,8 @@ td {
     justify-content: center;
     text-align: center;
     color: #c2e1ff;
+    margin-top: 233px;
+    margin-bottom: 164px;
 }
 
 
@@ -350,12 +362,13 @@ td {
     font-family: 'Lato', sans-serif;
     color: white;
     opacity: .9;
-    
+
 }
 
 .opacity {
     opacity: .8;
 }
+
 .opacity_3 {
     opacity: .5;
 }
@@ -383,21 +396,139 @@ td {
 
 .bl {
     padding-top: 57px;
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
+
 .btn_center {
     margin: auto;
     border: 0;
 }
+
 .margin_btn {
-    margin-top: 38px ;
+    margin-top: 38px;
     margin-bottom: 48px;
 }
+
 .steps {
     display: flex;
-    margin: auto;
+
     justify-content: center;
     text-align: center;
+
 }
-.rotate, .locator {
-    width: 160px;
+
+.icon_step {
+    text-align: center;
+    vertical-align: middle;
+
 }
+
+.bold {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    margin-top: 60px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.medium {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 50px;
+}
+
+.icon_step_1 {
+    height: 45px;
+}
+
+.icon_step_2 {
+    height: 45px;
+}
+
+.icon_step_3 {
+    height: 45px;
+}
+
+.icon_step_4 {
+    height: 45px;
+}
+
+.brn_get_started {
+    margin: auto;
+    display: block;
+    padding: 17px 27px 19px 28px;
+    cursor: pointer;
+}
+
+.margin_btn_1 {
+    margin-top: 40px;
+    margin-bottom: 149px;
+}
+
+.bg_orange {
+    background-color: #ffc155;
+}
+
+.white_gotham {
+    color: white;
+    padding-top: 141px;
+}
+
+.div_grid {
+    background-color: #ffc155;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    margin: auto;
+    width: 996px;
+    justify-content: center;
+    grid-column-gap: 30px;
+    grid-row-gap: 15px;
+
+}
+
+.div_flex {
+    padding: 33px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+}
+
+.quotation {
+    font-family: Brandon Grotesque;
+
+}
+
+.clients {
+    background-color: #ffc155;
+    padding-bottom: 160px;
+}
+
+.img_width {
+    width: 128px;
+    height: 100px;
+}
+
+.locator {
+    margin-top: -45px;
+}
+
+.rotate {
+    transform: rotate(180deg);
+    margin-top: -23px;
+    padding-bottom: 58px;
+    height: 144px;
+}
+
+.img_round {
+    padding: 0px 25px 24px 0px;
+}
+
+.center {
+   text-align: center;
+  }
