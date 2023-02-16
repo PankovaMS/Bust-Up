@@ -531,4 +531,12 @@ td {
 
 .center {
    text-align: center;
+   padding-bottom: 53px;
   }
+.map {
+    
+}
+.map_1 {
+    display: block;
+    margin: auto;
+}
