@@ -530,13 +530,54 @@ td {
 }
 
 .center {
-   text-align: center;
-   padding-bottom: 53px;
-  }
-.map {
+    text-align: center;
+    padding-bottom: 53px;
+}
+
+.stack_1,
+.stack_2 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.shape_4 {
+    transform: translateY(-174%);
+    position: relative;
+
+}
+
+.open-sans {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: white;
+    opacity: .8;
+}
+
+.open-sans-only {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    opacity: .4;
     
 }
-.map_1 {
-    display: block;
-    margin: auto;
+
+.centered {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+   
+}
+
+.address {
+    padding-bottom: 10px;
+}
+
+
+.pb10px {
+    padding-bottom: 10px;
+}
+
+.mail {
+    color: #ffc155;
 }
